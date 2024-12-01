@@ -28,6 +28,10 @@
 - 可调整表盘大小
 - 进度显示开关
 
+### 📊 提示管理
+- 使用 `((2024-12-31|ios-circular|title=Spring Conference))` 语法在任意文档中引用
+- 以小文字显示在左上角
+
 ## 🚀 快速开始
 
 ### 安装
@@ -147,10 +151,10 @@ npm run build
 - 实现基础的倒计时功能
 - 添加通知系统
 
-## 🤝 贡献指南
-
-欢迎提交 Pull Request 或创建 Issue！
+## 🤝 贡献与支持
+- 欢迎提交 Issue 和 Pull Request
+- 如遇到任何问题，请在 GitHub 仓库中报告
+- 喜欢这个插件？给我们一个 Star ⭐️
 
 ## 📄 许可证
-
-MIT License
+本项目采用 GPL-3.0 许可证
