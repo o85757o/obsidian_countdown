@@ -49,12 +49,17 @@
    ((2024-12-31|digital))       # 数字表盘
    ((2024-12-31|analog))        # 模拟时钟表盘
    ```
-
-2. 查看倒计时主页
+2. 设置标题
+   ```markdown
+   ((2024-12-31|ios-circular|title=Spring Conference))  # iOS 风格表盘
+   ((2024-12-31|digital|title=exem Conference))       # 数字表盘
+   ((2024-12-31|analog|title=Spring Conference))        # 模拟时钟表盘
+   ```
+3. 查看倒计时主页
    - 点击左侧功能区的时钟图标
    - 或使用命令面板搜索 "Open Countdown Dashboard"
 
-3. 配置设置
+4. 配置设置
    - 打开设置 > Countdown Timer
    - 选择默认表盘样式
    - 配置通知选项
