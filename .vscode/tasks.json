@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "dev",
+            "problemMatcher": [],
+            "label": "npm: dev",
+            "detail": "Run development build with watch mode"
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "label": "npm: build",
+            "detail": "Build production version"
+        },
+        {
+            "type": "npm",
+            "script": "install",
+            "problemMatcher": [],
+            "label": "npm: install",
+            "detail": "Install dependencies"
+        }
+    ]
+}

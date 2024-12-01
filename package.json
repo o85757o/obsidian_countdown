@@ -1,0 +1,33 @@
+{
+  "name": "obsidian-countdown",
+  "version": "1.0.0",
+  "description": "A comprehensive countdown timer plugin for Obsidian with multiple visualization styles",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "countdown",
+    "timer"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.19.4",
+    "obsidian": "^1.4.11",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "svelte": "^4.2.1"
+  }
+}
