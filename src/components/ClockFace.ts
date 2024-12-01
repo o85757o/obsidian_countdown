@@ -39,6 +39,14 @@ export class ClockFace {
         this.container.addClass(`face-${this.props.style}`);
         this.container.addClass(`size-${this.props.size}`);
 
+        // 添加标题 (对所有样式都添加)
+        if (this.props.title) {
+            this.container.createDiv({ 
+                cls: 'clock-title',
+                text: this.props.title
+            });
+        }
+
         switch (this.props.style) {
             case 'ios-circular':
                 this.renderIOSCircular();
