@@ -696,3 +696,27 @@
     background: rgba(0, 0, 0, 0.1);
 }
 
+/* Clock Title Style left*/
+.clock-title {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 0.8em;
+    color: var(--text-muted);
+    z-index: 2;
+    font-weight: normal;
+    text-align: left;
+}
+
+/* Size Variants for Title */
+.size-small .clock-title {
+    font-size: 0.7em;
+    top: 3px;
+    left: 8px;
+}
+
+.size-large .clock-title {
+    font-size: 0.9em;
+    top: 8px;
+    left: 12px;
+}
